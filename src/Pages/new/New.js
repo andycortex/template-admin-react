@@ -12,7 +12,7 @@ const New = () => {
           </div>
           <div className="bottom">
             <div className="left">
-              <img src="https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg" alt="image" />
+              <img src="https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg" alt="" />
             </div>
             <div className="right">
               <form>
