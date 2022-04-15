@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Statistics from '../../components/statistics/Statistics';
 import Widget from '../../components/widget/Widget';
+import TableInfo from '../../components/table/TableInfo';
 import './home.scss';
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
             </div>
             <div className="listContainer">
                 <div className="listTitle">Lastest Transactions</div>
+                <TableInfo/>
             </div>
         </div>
     </div>

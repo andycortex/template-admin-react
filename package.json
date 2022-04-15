@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@faker-js/faker": "^6.1.2",
     "node-sass": "^7.0.1"
   }
 }
