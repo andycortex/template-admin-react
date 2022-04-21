@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+React admin dashboard from scratch for beginners. React Admin Panel UI.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

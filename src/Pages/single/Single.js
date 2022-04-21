@@ -1,11 +1,16 @@
 import React from 'react';
+import Sidebar from '../../components/sidebar/Sidebar';
+import Navbar from '../../components/navbar/Navbar';
 import './single.scss'
+import TableInfo  from '../../components/table/TableInfo';
+import Statistics from '../../components/statistics/Statistics';
 
 const Single = () => {
   return (
     <div className="single">
-        <h1>Sidebar</h1>
+        <Sidebar/>
         <div className="singleContainer">
+            <Navbar/>
             <div className="top">
                 <div className="left">
                     <div className="editButton">Edit</div>
@@ -34,12 +39,12 @@ const Single = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <h1>Charts</h1>
+                    <Statistics/>
                 </div>
             </div>
             <div className="bottom">
                 <h1 className="title"> Last Transactions</h1>
-                <h2>List</h2>
+                <TableInfo />
             </div>
         </div>
     </div>
