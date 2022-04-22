@@ -11,6 +11,7 @@ import List from "./Pages/list/List";
 import New from "./Pages/new/New";
 import Single from "./Pages/single/Single";
 import { DarkModeContext } from "./context/darkModeContext";
+import  Login  from "./Pages/login/Login";
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
@@ -20,7 +21,7 @@ function App() {
       <Routes>
          <Route path="/">
             <Route index element={<Home />} />
-            {/* <Route path="/login" element={<Login />} /> */}
+            <Route path="/login" element={<Login />} />
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />}/>
