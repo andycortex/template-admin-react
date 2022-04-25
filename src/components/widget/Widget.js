@@ -9,7 +9,6 @@ import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalance
 const Widget = ({ type }) => {
     let data;
     //temporary
-    
     const amount = 1000;
     const diff = 26;
     switch (type) {
@@ -61,9 +60,9 @@ const Widget = ({ type }) => {
                         ),
                     };
                     break;
-                    case "products":
+                    case "balance":
                     data = {
-                        title: "PRODUCTOS",
+                        title: "BALANCE",
                         isMoney: true,
                         link: "See details",
                         icon: (
@@ -80,7 +79,6 @@ const Widget = ({ type }) => {
                     default:
                         break;
         }
-
   return (
     <div className="widget">
         <div className="left">
