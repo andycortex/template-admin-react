@@ -9,13 +9,13 @@ import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalance
 const Widget = ({ type }) => {
     let data;
     //temporary
+    //adicionar query: "products", query: "users", para las graficas
     const amount = 1000;
     const diff = 26;
     switch (type) {
         case "users":
             data = {
                 title: "USERS",
-                query: "users",
                 isMoney: false,
                 link: "See all users",
                 icon: (
@@ -65,7 +65,6 @@ const Widget = ({ type }) => {
                     data = {
                         title: "PRODUCTOS",
                         isMoney: true,
-                        query: "products",
                         link: "See details",
                         icon: (
                             <AccountBalanceWalletOutlinedIcon
